@@ -59,13 +59,15 @@
             this.btn_Getir.TabIndex = 1;
             this.btn_Getir.Text = "Getir";
             this.btn_Getir.UseVisualStyleBackColor = true;
+            this.btn_Getir.Click += new System.EventHandler(this.btn_Getir_Click);
             // 
             // textRSS_URL
             // 
             this.textRSS_URL.Location = new System.Drawing.Point(6, 35);
             this.textRSS_URL.Name = "textRSS_URL";
-            this.textRSS_URL.Size = new System.Drawing.Size(847, 20);
+            this.textRSS_URL.Size = new System.Drawing.Size(844, 20);
             this.textRSS_URL.TabIndex = 0;
+            this.textRSS_URL.Text = " https://www.sabah.com.tr/rss/spor.xml";
             // 
             // groupBox2
             // 
@@ -84,6 +86,7 @@
             this.lst_Baslik.Name = "lst_Baslik";
             this.lst_Baslik.Size = new System.Drawing.Size(213, 550);
             this.lst_Baslik.TabIndex = 0;
+            this.lst_Baslik.SelectedIndexChanged += new System.EventHandler(this.lst_Baslik_SelectedIndexChanged);
             // 
             // web_Browser
             // 
